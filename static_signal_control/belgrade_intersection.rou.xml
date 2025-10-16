@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-15 12:56:47 by Eclipse SUMO netedit Version 1.24.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" departLane="1" from="E0" to="E7" end="3600.00" period="exp(0.0444444444)"/>
+    <flow id="f_1" begin="0.00" departLane="2" from="E0" to="E2.30" end="3600.00" period="exp(0.3174603175)"/>
+    <flow id="f_10" begin="0.00" departLane="1" from="E4" to="E2.30" end="3600.00" period="exp(0.0172205958)"/>
+    <flow id="f_2" begin="0.00" departLane="2" from="E0" to="E5" end="3600.00" period="exp(0.045)"/>
+    <flow id="f_3" begin="0.00" departLane="1" from="E3" to="E5" end="3600.00" period="exp(0.0127779198)"/>
+    <flow id="f_4" begin="0.00" departLane="2" from="E3" to="E1" end="3600.00" period="exp(0.1712328767)"/>
+    <flow id="f_5" begin="0.00" departLane="1" from="E6" to="E2.30" end="3600.00" period="exp(0.0166666667)"/>
+    <flow id="f_6" begin="0.00" departLane="1" from="E6" to="E5" end="3600.00" period="exp(0.0205549846)"/>
+    <flow id="f_7" begin="0.00" departLane="1" from="E6" to="E1" end="3600.00" period="exp(0.0547345375)"/>
+    <flow id="f_8" begin="0.00" departLane="1" from="E4" to="E1" end="3600.00" period="exp(0.073313783)"/>
+    <flow id="f_9" begin="0.00" departLane="1" from="E4" to="E7" end="3600.00" period="exp(0.0111111111)"/>
+    <personFlow id="pf_0" begin="0.00" end="3600.00" period="exp(0.0555555556)">
+        <walk edges="E0.77 E2.30"/>
+    </personFlow>
+    <personFlow id="pf_1" begin="0.00" end="3600.00" period="exp(0.0555555556)">
+        <walk edges="E6 E5"/>
+    </personFlow>
+    <personFlow id="pf_2" begin="0.00" end="3600.00" period="exp(0.0555555556)">
+        <walk edges="E3 E1"/>
+    </personFlow>
+    <personFlow id="pf_3" begin="0.00" end="3600.00" period="exp(0.0555555556)">
+        <walk edges="E4 E7"/>
+    </personFlow>
+</routes>

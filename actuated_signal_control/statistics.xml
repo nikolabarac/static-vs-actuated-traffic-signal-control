@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-16 13:40:45 by Eclipse SUMO sumo Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\NIKOLA\SUMO\belgrade\actuated_signal_control\belgrade_intersection.net.xml"/>
+        <route-files value="C:\NIKOLA\SUMO\belgrade\actuated_signal_control\belgrade_intersection.rou.xml"/>
+    </input>
+
+    <output>
+        <statistic-output value="C:\NIKOLA\SUMO\belgrade\actuated_signal_control\statistics.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.33"/>
+    </time>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51570"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="71497.20" clockEnd="71511.47" clockDuration="14.27" traciDuration="5.93" realTimeFactor="269.89" vehicleUpdatesPerSecond="32814.49" personUpdatesPerSecond="34763.82" begin="0.00" end="3851.10" duration="3851.10"/>
+    <vehicles loaded="2804" inserted="2804" running="0" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="6"/>
+    <persons loaded="792" running="0" jammed="1"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="2804" routeLength="286.72" speed="6.64" duration="55.10" waitingTime="20.37" timeLoss="33.89" departDelay="21.55" departDelayWaiting="-1.00" totalTravelTime="154515.90" totalDepartDelay="60430.46"/>
+    <pedestrianStatistics number="792" routeLength="224.05" duration="206.69" timeLoss="43.66"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
